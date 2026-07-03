@@ -1,0 +1,7 @@
+Ticket,Project ID,Title,Status,Owner,Priority,Description,Updated At
+101,PRJ-2026-C-TEAM-B-001,Requirement confirmation from Team B before project development can start,Blocked,Jose,High,Waiting for customer input,2026-06-24T08:30:00Z
+102,PRJ-2026-A-INFRA-002,Pre-development phase infrastructure enhancement before requirement freeze,In Progress,Alex,High,Dependency on secure access,2026-06-24T09:10:00Z
+103,OPR-2026-MAINT-001,Operational request to add a new type in a maintenance project,Not Started,Leo,Medium,Requirement partially clear,2026-06-24T09:20:00Z
+104,PRJ-2026-D-TEST-004,Testing phase test plan preparation in progress,Not Started,Max,Medium,Can start after API freeze,2026-06-24T09:35:00Z
+201,INFRA-2026-E-LOGGING-005,Continuous improvement logging enhancement,In Progress,Jose,Medium,Standard log format needs review,2026-06-25T07:40:00Z
+202,PRJ-2026-E-TEAM-C-006,UAT in progress for email optimization request from Team C,In Review,Prateek,High,Excel to SharePoint pilot validation,2026-06-25T10:00:00Z

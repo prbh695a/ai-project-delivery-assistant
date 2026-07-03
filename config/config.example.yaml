@@ -1,0 +1,24 @@
+openproject:
+  base_url: "https://openproject.example.internal"
+  project_identifier: "fedev"
+  project_id_custom_field: "customField12"
+
+  # For production, keep verify_ssl true and provide a company CA bundle if needed.
+  # During a temporary proof-of-concept, verify_ssl can be set to false, but do not keep it disabled in production.
+  verify_ssl: true
+  ca_bundle: null
+
+sync:
+  max_ticket_lines_per_project: 20
+  closed_statuses:
+    - "Closed"
+    - "Done"
+    - "Rejected"
+  blocked_statuses:
+    - "Blocked"
+    - "On hold"
+    - "Waiting input"
+
+output:
+  excel_file: "output/project_sync_summary.xlsx"
+  insights_file: "output/ai_delivery_insights.md"
